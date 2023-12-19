@@ -1,0 +1,139 @@
+@import "reset.css";
+
+element{
+    --primaria: #33A8DB;
+    --secundaria: #1572B7;
+}
+
+html{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Raleway;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 16px;
+}
+
+h2{
+    font-size: 32px;
+    color: #33A8DB;
+    font-weight: 700;
+    letter-spacing: 6.08px;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span, a{
+    color: #33A8DB;
+    text-decoration: none;
+}
+
+.banner{
+    height: 605px;
+    position: static;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(49, 168, 221, 0.00) 100%);
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #33A8DB;
+}
+
+.banner-content{
+    margin: auto;
+    margin-top: 56px;
+    width: 35%;
+}
+
+.banner-content p{
+    font-size: 20px;
+}
+
+.banner-content button{
+    margin: 24px;
+    background-color: transparent;
+    border: 2px solid #3BA1CD;
+    color: #31A8DD;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    padding: 16px 24px;
+    margin-top: 32px;
+}
+
+
+#course-content{
+    padding: 128px;
+    width: 40%;
+    margin: auto;
+}
+
+#course-content p {
+    margin-top: 24px;
+}
+
+.modules-list div{
+    background-color: #252525;
+    width: 60%;
+    margin: auto;
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 50px;
+    border: 1px solid #33A8DB;
+}
+
+#transform-world{
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    height: 380px;
+    background-image: url("../images/woman-code.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#transform-world p{
+    width: 13%;
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: left;
+    margin: 110px 220px;
+}
+
+#professional-challenges h2{
+    width: 50%;
+    margin: auto;
+    margin-top: 98px;
+}
+
+#professional-challenges img{
+    width: 45%;
+}
+
+#professional-challenges p{
+    width: 50%;
+    margin: auto;
+    margin-top: 32px;
+}
+
+footer{
+    border-top: 2px solid #33A8DB;
+    margin-top: 80px;
+    padding: 60px;
+}
